@@ -12,7 +12,23 @@
 		55E4D9CC2264CF5200D0845B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E4D9CA2264CF5200D0845B /* Main.storyboard */; };
 		55E4D9CE2264CF5400D0845B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E4D9CD2264CF5400D0845B /* Assets.xcassets */; };
 		55E4D9D12264CF5400D0845B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E4D9CF2264CF5400D0845B /* LaunchScreen.storyboard */; };
+		55E4D9E62264CF9F00D0845B /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E4D9DD2264CF9F00D0845B /* Logic.framework */; };
+		55E4D9EB2264CF9F00D0845B /* LogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4D9EA2264CF9F00D0845B /* LogicTests.swift */; };
+		55E4D9ED2264CF9F00D0845B /* Logic.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E4D9DF2264CF9F00D0845B /* Logic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E4D9F52264CFED00D0845B /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4D9F42264CFED00D0845B /* Numbers.swift */; };
+		55E4D9F72264D05600D0845B /* NumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4D9F62264D05600D0845B /* NumbersTests.swift */; };
+		55E4D9F82264D0C500D0845B /* Logic.framework in Resources */ = {isa = PBXBuildFile; fileRef = 55E4D9DD2264CF9F00D0845B /* Logic.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E4D9E72264CF9F00D0845B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E4D9BB2264CF5200D0845B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E4D9DC2264CF9F00D0845B;
+			remoteInfo = Logic;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		55E4D9C32264CF5200D0845B /* Baseball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baseball.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +38,14 @@
 		55E4D9CD2264CF5400D0845B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E4D9D02264CF5400D0845B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55E4D9D22264CF5400D0845B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E4D9DD2264CF9F00D0845B /* Logic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E4D9DF2264CF9F00D0845B /* Logic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
+		55E4D9E02264CF9F00D0845B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E4D9E52264CF9F00D0845B /* LogicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E4D9EA2264CF9F00D0845B /* LogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicTests.swift; sourceTree = "<group>"; };
+		55E4D9EC2264CF9F00D0845B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E4D9F42264CFED00D0845B /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		55E4D9F62264D05600D0845B /* NumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55E4D9DA2264CF9F00D0845B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E4D9E22264CF9F00D0845B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4D9E62264CF9F00D0845B /* Logic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				55E4D9C52264CF5200D0845B /* Baseball */,
+				55E4D9DE2264CF9F00D0845B /* Logic */,
+				55E4D9E92264CF9F00D0845B /* LogicTests */,
 				55E4D9C42264CF5200D0845B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				55E4D9C32264CF5200D0845B /* Baseball.app */,
+				55E4D9DD2264CF9F00D0845B /* Logic.framework */,
+				55E4D9E52264CF9F00D0845B /* LogicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +107,38 @@
 			path = Baseball;
 			sourceTree = "<group>";
 		};
+		55E4D9DE2264CF9F00D0845B /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				55E4D9DF2264CF9F00D0845B /* Logic.h */,
+				55E4D9F42264CFED00D0845B /* Numbers.swift */,
+				55E4D9E02264CF9F00D0845B /* Info.plist */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		55E4D9E92264CF9F00D0845B /* LogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E4D9EA2264CF9F00D0845B /* LogicTests.swift */,
+				55E4D9F62264D05600D0845B /* NumbersTests.swift */,
+				55E4D9EC2264CF9F00D0845B /* Info.plist */,
+			);
+			path = LogicTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55E4D9D82264CF9F00D0845B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4D9ED2264CF9F00D0845B /* Logic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		55E4D9C22264CF5200D0845B /* Baseball */ = {
@@ -84,6 +158,42 @@
 			productReference = 55E4D9C32264CF5200D0845B /* Baseball.app */;
 			productType = "com.apple.product-type.application";
 		};
+		55E4D9DC2264CF9F00D0845B /* Logic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E4D9EE2264CF9F00D0845B /* Build configuration list for PBXNativeTarget "Logic" */;
+			buildPhases = (
+				55E4D9D82264CF9F00D0845B /* Headers */,
+				55E4D9D92264CF9F00D0845B /* Sources */,
+				55E4D9DA2264CF9F00D0845B /* Frameworks */,
+				55E4D9DB2264CF9F00D0845B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Logic;
+			productName = Logic;
+			productReference = 55E4D9DD2264CF9F00D0845B /* Logic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55E4D9E42264CF9F00D0845B /* LogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E4D9F12264CF9F00D0845B /* Build configuration list for PBXNativeTarget "LogicTests" */;
+			buildPhases = (
+				55E4D9E12264CF9F00D0845B /* Sources */,
+				55E4D9E22264CF9F00D0845B /* Frameworks */,
+				55E4D9E32264CF9F00D0845B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E4D9E82264CF9F00D0845B /* PBXTargetDependency */,
+			);
+			name = LogicTests;
+			productName = LogicTests;
+			productReference = 55E4D9E52264CF9F00D0845B /* LogicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +205,13 @@
 				ORGANIZATIONNAME = bearkode;
 				TargetAttributes = {
 					55E4D9C22264CF5200D0845B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					55E4D9DC2264CF9F00D0845B = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					55E4D9E42264CF9F00D0845B = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -113,6 +230,8 @@
 			projectRoot = "";
 			targets = (
 				55E4D9C22264CF5200D0845B /* Baseball */,
+				55E4D9DC2264CF9F00D0845B /* Logic */,
+				55E4D9E42264CF9F00D0845B /* LogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +247,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55E4D9DB2264CF9F00D0845B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E4D9E32264CF9F00D0845B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4D9F82264D0C500D0845B /* Logic.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +274,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		55E4D9D92264CF9F00D0845B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4D9F52264CFED00D0845B /* Numbers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E4D9E12264CF9F00D0845B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4D9F72264D05600D0845B /* NumbersTests.swift in Sources */,
+				55E4D9EB2264CF9F00D0845B /* LogicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E4D9E82264CF9F00D0845B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E4D9DC2264CF9F00D0845B /* Logic */;
+			targetProxy = 55E4D9E72264CF9F00D0845B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		55E4D9CA2264CF5200D0845B /* Main.storyboard */ = {
@@ -314,6 +473,103 @@
 			};
 			name = Release;
 		};
+		55E4D9EF2264CF9F00D0845B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8899R5FJ5P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Logic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearkode.Logic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55E4D9F02264CF9F00D0845B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8899R5FJ5P;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Logic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearkode.Logic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55E4D9F22264CF9F00D0845B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8899R5FJ5P;
+				INFOPLIST_FILE = LogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearkode.LogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E4D9F32264CF9F00D0845B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8899R5FJ5P;
+				INFOPLIST_FILE = LogicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearkode.LogicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +587,24 @@
 			buildConfigurations = (
 				55E4D9D62264CF5400D0845B /* Debug */,
 				55E4D9D72264CF5400D0845B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E4D9EE2264CF9F00D0845B /* Build configuration list for PBXNativeTarget "Logic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E4D9EF2264CF9F00D0845B /* Debug */,
+				55E4D9F02264CF9F00D0845B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E4D9F12264CF9F00D0845B /* Build configuration list for PBXNativeTarget "LogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E4D9F22264CF9F00D0845B /* Debug */,
+				55E4D9F32264CF9F00D0845B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
