@@ -39,7 +39,7 @@ class NumbersTests: XCTestCase {
         XCTAssertFalse(validate([1, 2, 3, 3]))
         XCTAssertFalse(validate([2, 2, 3, 8]))
         
-        XCTAssertFalse(validate([11, 2, 8, 3]))
+        XCTAssertFalse(validate([10, 2, 8, 3]))
     }
 
 }
