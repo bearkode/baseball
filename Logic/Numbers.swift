@@ -25,5 +25,5 @@ public struct Numbers {
 
 
 func validate(_ values: [UInt]) -> Bool {
-    return (values.count == 4 && Set<UInt>(values).count == values.count)
+    return (values.count == 4 && Set<UInt>(values).count == values.count && values.filter{ $0 > 9 }.count == 0)
 }
