@@ -38,6 +38,8 @@ class NumbersTests: XCTestCase {
         XCTAssertTrue(validate([1, 2, 3, 4]))
         XCTAssertFalse(validate([1, 2, 3, 3]))
         XCTAssertFalse(validate([2, 2, 3, 8]))
+        
+        XCTAssertFalse(validate([11, 2, 8, 3]))
     }
 
 }
